@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d9afaf;
+}
+
+/* Header */
+header {
+    background-color: #0b3c5d;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #1d2731;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4d03f;
+}
+
+/* Hero Section */
+.hero {
+    background: #2c3e50;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* Common Section */
+.section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.section h2 {
+    color: #0b3c5d;
+}
+
+/* Services */
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    background-color: #eaeaea;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #0b3c5d;
+}
+
+/* Emergency Section */
+.emergency {
+    background-color: #c0392b;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.emergency button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #c0392b;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #1d2731;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.commissioner{
+ text-align: center;
+}
+.commissioner img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+    border: 3px solid #0b3c5d;
+}
+.commissioner h3 {
+    color: #0b3c5d;
+    margin-bottom: 10px;
+}
