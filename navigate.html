@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello CSS</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: white;
+        }
+        #container {
+            border: 2px solid wheat;
+            background-color: black;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            padding: 10px;
+            border-radius: 7px;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .dev, .dev1 {
+            padding: 15px 20px;
+            margin: 5px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect */
+        .dev:hover, .dev1:hover {
+            background: grey;
+            color: #fff;
+            transform: scale(1.1);
+            box-shadow: 0 0 10px #c2d5e5;
+        }
+
+        /* Left title */
+        .dev1 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Right menu container */
+        .menu {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- LEFT SIDE -->
+        <div class="dev1">My Website</div>
+
+        <!-- RIGHT SIDE MENU -->
+        <div class="menu">
+            <div class="dev">Home</div>
+            <div class="dev">Career</div>
+            <div class="dev">Tutorial</div>
+            <div class="dev">About Us</div>
+            <div class="dev">Contact Us</div>
+        </div>
+
+    </div>
+</body>
+</html>
